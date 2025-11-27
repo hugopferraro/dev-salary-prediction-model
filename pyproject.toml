@@ -1,0 +1,16 @@
+[project]
+name = "dev-salary-prediction-model"
+version = "0.1.0"
+description = "Developer salary prediction model based on Stack Overflow 2025 Survey"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "catboost>=1.2.8",
+    "matplotlib>=3.10.7",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "watermark>=2.5.0",
+]
